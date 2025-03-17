@@ -13,6 +13,8 @@
  
      echo "Erro conexão" . $conn -> connect_error;
  
- }
+ }else{
+    echo "Conexão Bem-sucedida";
+}
 
 ?>

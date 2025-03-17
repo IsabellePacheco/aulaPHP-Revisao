@@ -1,5 +1,3 @@
-<?php include('valida_sessao.php'); ?>
-<!-- Inclui o arquivo 'valida_sessao.php' para garantir que o usuário esteja autenticado -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,8 +9,8 @@
 </head>
 <body style="width: 100vw; height: 100vh;">
     <div class="container">
-    <h2>Bem-vindo, <?php echo $_SESSION['teste']; ?></h2>
-    <a href="logout.php">Sair</a>
+    <h2>Bem-vindo(a) <?php echo $_SESSION['teste']; ?></h2>
+    <a href="logout.php">Entrar</a>
     </div>
 </body>
 </html>
